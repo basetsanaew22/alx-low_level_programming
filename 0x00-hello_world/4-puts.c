@@ -1,9 +1,8 @@
-#include <stdio.h>
-
+#include<stdio.h>
 /**
- * main - this is the main function 
+ * main - ac program that use puts function on to print
  *   
- * Return: always 0 
+ * Return: Always 0 
  */
 int main(void)
 {
