@@ -6,7 +6,7 @@
  * otherwise returns 0.
  * @s1: The first string to compare.
  * @s2: The second string with wild character.
- * 
+ *
 * Return:  1 if the strings are considered identical, 0 otherwise.
  * On error, -1 is returned, and errno is set appropriately.
  */
