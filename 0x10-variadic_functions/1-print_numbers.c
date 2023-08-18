@@ -12,7 +12,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list sums;
 	unsigned int index;
-	
+
 	va_start(nums, n);
 
 	for (index = 0; index < n; index++)
@@ -23,6 +23,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			printf("%s", separator);
 	}
 	printf("\n");
-	
+
 	va_end(nums);
 }
