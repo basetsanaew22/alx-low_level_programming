@@ -18,7 +18,7 @@ int main(void)
 	add_node_end(&head, "Corbin");
 	add_node_end(&head, "Daniel");
 	add_node_end(&head, "Danton");	
-    	add__node_end(&head, "David");
+    	add_node_end(&head, "David");
 	add_node_end(&head, "Gary");
 	add_node_end(&head, "Holden");
 	add_node_end(&head, "Ian");
