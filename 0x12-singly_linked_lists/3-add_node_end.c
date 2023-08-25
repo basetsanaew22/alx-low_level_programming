@@ -7,7 +7,8 @@
  * add_node_end - A new node at the end of linked list
  * @head: Double pointer to the list_t list
  * @str: String to store in the new node
- * REturn: A new element, or NULL on allocation failure
+ *
+ * Return: A new element, or NULL on allocation failure
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
@@ -34,10 +35,10 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (n);
 	}
 
-	for (;t->next; t = t->next)
+	for (; t->next; t = t->next)
 	{
 	}
-	
+
 	t->next = n;
 
 	return (n);
